@@ -29,7 +29,7 @@ detection, PII redaction — cheapest-check-first, before any billed API call ha
 recognizers for Indian phone numbers and PAN, and full request auditing to Postgres.
 `FastAPI` `Redis` `PostgreSQL` `Microsoft Presidio`
 
-**[TableForge](https://github.com/Sunny-sketchs/TableForge)** — High-concurrency data intelligence platform
+**[TableForge](https://github.com/Sunny-sketchs/Table_Forge)** — High-concurrency data intelligence platform
 Extracts complex tabular data from PDFs (even ruled, image-based ones) and lets users query it in natural
 language via Gemini. Offloads heavy PDF parsing to background threads with `asyncio.to_thread` so the
 FastAPI backend stays responsive during long-running extraction jobs, with a React dashboard for real-time
